@@ -25,7 +25,7 @@ export const botConfig = {
       {
         name: "Racing in FRIC", // required by Discord API, not shown in the client
         state: "Racing in FRIC",     // this is what people actually see
-        type: 0,               // Custom
+        type: 5,               // Custom
       },
     ],
   },
