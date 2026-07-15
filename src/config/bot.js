@@ -268,8 +268,7 @@ export const botConfig = {
 
     // Allowed winner count range.
     minimumWinners: 1,
-    maximumWinners: 
-      ,
+    maximumWinners: 10,
 
     // Allowed giveaway duration range in milliseconds.
     // 300000 = 5 minutes.
@@ -295,7 +294,7 @@ export const botConfig = {
     announcementChannel: null,
 
     // Timezone used to calculate birthday dates.
-    timezone: "CEST",
+    timezone: "UTC",
   },
 
   // =========================
