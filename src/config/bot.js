@@ -378,7 +378,7 @@ export const botConfig = {
     defaultGoodbyeMessage:
       "{user} has left the server. We now have {memberCount} members.",
     // Channel ID for welcome messages.
-    defaultWelcomeChannel: 1521172050184634458,
+    defaultWelcomeChannel: null,
     // Channel ID for goodbye messages.
     defaultGoodbyeChannel: null,
   },
@@ -453,7 +453,7 @@ export const botConfig = {
     leveling: false,
     moderation: true,
     logging: true,
-    welcome: true,
+    welcome: false,
 
     // Community engagement systems.
     tickets: true,
