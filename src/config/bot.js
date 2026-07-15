@@ -108,7 +108,7 @@ export const botConfig = {
       gray: "#99AAB5",
 
       // Discord-style palette shortcuts.
-      blurple: "#5865F2",
+      blurple: "#4117aa",
       green: "#57F287",
       yellow: "#FEE75C",
       fuchsia: "#EB459E",
@@ -117,8 +117,8 @@ export const botConfig = {
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
-        ended: "#ED4245",
+        active: "#4117aa",
+        ended: "#4117aa",
       },
       ticket: {
         open: "#57F287",
@@ -126,7 +126,7 @@ export const botConfig = {
         closed: "#ED4245",
         pending: "#99AAB5",
       },
-      economy: "#F1C40F",
+      economy: "#4117aa",
       birthday: "#E91E63",
       moderation: "#9B59B6",
 
@@ -146,7 +146,7 @@ export const botConfig = {
       icon: null,
     },
     // Default thumbnail URL for embeds (null = no thumbnail).
-    thumbnail: null,
+    thumbnail: https://www.image2url.com/r2/default/images/1784025391046-b9deda81-155e-4449-aeb8-344a7fad806b.png,
     author: {
       // Optional default embed author block.
       name: null,
@@ -175,7 +175,7 @@ export const botConfig = {
     baseBankCapacity: 100000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 0,
 
     // Work command random payout range.
     workMin: 10,
@@ -268,7 +268,8 @@ export const botConfig = {
 
     // Allowed winner count range.
     minimumWinners: 1,
-    maximumWinners: 10,
+    maximumWinners: 
+      ,
 
     // Allowed giveaway duration range in milliseconds.
     // 300000 = 5 minutes.
@@ -277,7 +278,7 @@ export const botConfig = {
     maximumDuration: 2592000000,
 
     // Role IDs allowed to host giveaways.
-    allowedRoles: [],
+    allowedRoles: [1521133899328000110],
 
     // Role IDs that bypass giveaway restrictions.
     bypassRoles: [],
@@ -294,7 +295,7 @@ export const botConfig = {
     announcementChannel: null,
 
     // Timezone used to calculate birthday dates.
-    timezone: "UTC",
+    timezone: "CEST",
   },
 
   // =========================
@@ -302,10 +303,10 @@ export const botConfig = {
   // =========================
   verification: {
     // Message shown when posting the verification panel.
-    defaultMessage: "Click the button below to verify yourself and gain access to the server!",
+    defaultMessage: "Click the button below to verify yourself and start racing!",
 
     // Text on the verification button.
-    defaultButtonText: "Verify",
+    defaultButtonText: "Click here",
 
     // Automatic verification behavior.
     autoVerify: {
@@ -372,13 +373,13 @@ export const botConfig = {
     // Welcome template posted when a user joins.
     // Placeholders: {user}, {server}, {memberCount}
     defaultWelcomeMessage:
-      "Welcome {user} to {server}! We now have {memberCount} members!",
+      "Welcome {user} to {server}! We'll see you on the grid!",
     // Goodbye template posted when a user leaves.
     // Placeholders: {user}, {memberCount}
     defaultGoodbyeMessage:
       "{user} has left the server. We now have {memberCount} members.",
     // Channel ID for welcome messages.
-    defaultWelcomeChannel: null,
+    defaultWelcomeChannel: 1521172050184634458,
     // Channel ID for goodbye messages.
     defaultGoodbyeChannel: null,
   },
@@ -450,7 +451,7 @@ export const botConfig = {
   features: {
     // Core systems.
     economy: true,
-    leveling: true,
+    leveling: false,
     moderation: true,
     logging: true,
     welcome: true,
@@ -458,8 +459,8 @@ export const botConfig = {
     // Community engagement systems.
     tickets: true,
     giveaways: true,
-    birthday: true,
-    counter: true,
+    birthday: false,
+    counter: false,
 
     // Security and self-service systems.
     verification: true,
@@ -473,7 +474,7 @@ export const botConfig = {
     utility: true,
     community: true,
     fun: true,
-    music: true,
+    music: false,
   },
 };
 
