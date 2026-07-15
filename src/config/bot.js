@@ -141,12 +141,12 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "FRIC Bot",
       // Footer icon URL (null = no icon).
       icon: null,
     },
     // Default thumbnail URL for embeds (null = no thumbnail).
-    thumbnail: https://www.image2url.com/r2/default/images/1784025391046-b9deda81-155e-4449-aeb8-344a7fad806b.png,
+    thumbnail: null,
     author: {
       // Optional default embed author block.
       name: null,
