@@ -90,74 +90,55 @@ export const botConfig = {
   // EMBED COLORS & BRANDING
   // =========================
   // IMPORTANT: This is the SINGLE SOURCE OF TRUTH for all bot colors
-embeds: {
-  colors: {
-    // Main brand colors.
-    primary: "#4117aa",
-    secondary: "#2F3136",
+  embeds: {
+    colors: {
+      // Main brand colors.
+      primary: "#4117aa",
+      secondary: "#2F3136",
 
-    // Dedicated feature colors.
-    verification: "#4117aa",
-    welcome: "#4117aa",
+      // Standard status colors for success/error/warning/info messages.
+      success: "#57F287",
+      error: "#ED4245",
+      warning: "#FEE75C",
+      info: "#3498DB",
 
-    // Standard status colors.
-    success: "#57F287",
-    error: "#ED4245",
-    warning: "#FEE75C",
-    info: "#3498DB",
+      // Neutral utility colors.
+      light: "#FFFFFF",
+      dark: "#202225",
+      gray: "#99AAB5",
 
-    // Neutral utility colors.
-    light: "#FFFFFF",
-    dark: "#202225",
-    gray: "#99AAB5",
+      // Discord-style palette shortcuts.
+      blurple: "#4117aa",
+      green: "#57F287",
+      yellow: "#FEE75C",
+      fuchsia: "#EB459E",
+      red: "#ED4245",
+      black: "#000000",
 
-    // Discord palette.
-    blurple: "#4117aa",
-    green: "#57F287",
-    yellow: "#FEE75C",
-    fuchsia: "#EB459E",
-    red: "#ED4245",
-    black: "#000000",
+      // Feature-specific colors.
+      giveaway: {
+        active: "#4117aa",
+        ended: "#4117aa",
+      },
+      ticket: {
+        open: "#57F287",
+        claimed: "#FAA61A",
+        closed: "#ED4245",
+        pending: "#99AAB5",
+      },
+      economy: "#4117aa",
+      birthday: "#E91E63",
+      moderation: "#9B59B6",
 
-    // Feature-specific colors.
-    giveaway: {
-      active: "#4117aa",
-      ended: "#4117aa",
+      // Ticket priority color mapping.
+      priority: {
+        none: "#95A5A6",
+        low: "#3498db",
+        medium: "#2ecc71",
+        high: "#f1c40f",
+        urgent: "#e74c3c",
+      },
     },
-
-    ticket: {
-      open: "#57F287",
-      claimed: "#FAA61A",
-      closed: "#ED4245",
-      pending: "#99AAB5",
-    },
-
-    economy: "#4117aa",
-    birthday: "#E91E63",
-    moderation: "#9B59B6",
-
-    priority: {
-      none: "#95A5A6",
-      low: "#3498db",
-      medium: "#2ecc71",
-      high: "#f1c40f",
-      urgent: "#e74c3c",
-    },
-  },
-
-  footer: {
-    text: "FRIC Bot",
-    icon: null,
-  },
-
-  thumbnail: null,
-
-  author: {
-    name: null,
-    icon: null,
-    url: null,
-  },
-},
     footer: {
       // Default footer text used in bot embeds.
       text: "FRIC Bot",
