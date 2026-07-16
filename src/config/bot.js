@@ -97,8 +97,8 @@ embeds: {
     secondary: "#2F3136",
 
     // Dedicated feature colors.
-    verification: "#2F3136",
-    welcome: "#2F3136",
+    verification: "#4117aa",
+    welcome: "#4117aa",
 
     // Standard status colors.
     success: "#57F287",
